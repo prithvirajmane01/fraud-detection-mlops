@@ -4,6 +4,10 @@ pandas
 numpy
 joblib
 fastapi
-uvicornNew-Item 
+uvicorn
 sqlalchemy
 pymysql
+python-jose
+passlib
+bcrypt
+python-multipart

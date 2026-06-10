@@ -1,3 +1,4 @@
 mlops-env/
 __pycache__/
 *.pkl
+backups/

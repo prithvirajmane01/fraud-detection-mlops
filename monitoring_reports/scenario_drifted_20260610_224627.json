@@ -1,0 +1,36 @@
+{
+  "timestamp": "20260610_224627",
+  "dataset_drift_detected": true,
+  "feature_results": {
+    "transaction_amount": {
+      "ks_statistic": 0.44,
+      "p_value": 0.0,
+      "drift_detected": "True"
+    },
+    "transaction_hour": {
+      "ks_statistic": 0.089,
+      "p_value": 0.0099,
+      "drift_detected": "True"
+    },
+    "days_since_last_transaction": {
+      "ks_statistic": 0.672,
+      "p_value": 0.0,
+      "drift_detected": "True"
+    },
+    "customer_age": {
+      "ks_statistic": 0.041,
+      "p_value": 0.6249,
+      "drift_detected": "False"
+    },
+    "is_foreign_transaction": {
+      "ks_statistic": 0.001,
+      "p_value": 1.0,
+      "drift_detected": "False"
+    },
+    "num_transactions_today": {
+      "ks_statistic": 0.718,
+      "p_value": 0.0,
+      "drift_detected": "True"
+    }
+  }
+}
